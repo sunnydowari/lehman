@@ -10,11 +10,7 @@ const App = () => {
       <Navbar /> {/* Navbar component */}
       
       {/* Additional hyperlinks inside App.jsx */}
-      <nav>
-        <Link to="/login">Login</Link>
-        <Link to="/signup">Signup</Link>
-      </nav>
-
+      
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
