@@ -8,6 +8,8 @@ const App = () => {
   return (
     <Router>
       <Navbar /> {/* Add Navbar component here */}
+      <Link to="/login">Login</Link>
+      <Link to="/signup">Signup</Link>    
 
       <Routes>
         <Route path="/login" element={<Login />} />
