@@ -7,12 +7,10 @@ import Signup from "./pages/signup/Signup";
 const App = () => {
   return (
     <Router>
-      <Navbar /> {/* Add Navbar component here */}
-      <nav>
+      <Navbar /> {<nav>
         <Link to="/login">Login</Link>
         <Link to="/signup">Signup</Link>
-      </nav>
-
+      </nav>}
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
